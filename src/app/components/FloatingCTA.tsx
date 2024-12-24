@@ -26,10 +26,9 @@ const FloatingCTA = () => {
 
   return (
     <div className="fixed bottom-4 right-4 z-50">
-      <Button size="lg">S'inscrire maintenant</Button>
+      <Button size="lg">S&apos;inscrire maintenant</Button>
     </div>
   )
 }
 
 export default FloatingCTA
-

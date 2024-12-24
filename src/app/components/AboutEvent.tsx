@@ -14,12 +14,12 @@ const AboutEvent = () => {
               <p className="mb-4">
                 Le YALI Alumni Summit 2025-Bénin est un rassemblement exceptionnel de leaders africains émergents, 
                 visant à catalyser le changement positif à travers le continent. Cet événement de trois jours 
-                offre une plateforme unique pour le partage d'idées, le réseautage et la collaboration entre 
-                les alumni du programme YALI et d'autres acteurs clés du développement africain.
+                offre une plateforme unique pour le partage d&apos;idées, le réseautage et la collaboration entre 
+                les alumni du programme YALI et d&apos;autres acteurs clés du développement africain.
               </p>
               <p className="mb-4">
-                Notre objectif est de stimuler l'innovation, promouvoir un leadership inclusif, et développer 
-                des solutions durables aux défis pressants de l'Afrique. Le sommet s'adresse aux jeunes leaders, 
+                Notre objectif est de stimuler l&apos;innovation, promouvoir un leadership inclusif, et développer 
+                des solutions durables aux défis pressants de l&apos;Afrique. Le sommet s&apos;adresse aux jeunes leaders, 
                 entrepreneurs, activistes et professionnels engagés dans la transformation positive de leurs communautés.
               </p>
             </div>

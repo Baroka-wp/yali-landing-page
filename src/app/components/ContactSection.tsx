@@ -41,7 +41,7 @@ const ContactSection = () => {
             <h3 className="text-xl font-semibold mt-8 mb-4">Newsletter</h3>
             <form className="flex">
               <Input type="email" placeholder="Votre email" className="mr-2" />
-              <Button type="submit">S'abonner</Button>
+              <Button type="submit">S&apos;abonner</Button>
             </form>
           </div>
         </div>
@@ -51,4 +51,3 @@ const ContactSection = () => {
 }
 
 export default ContactSection
-
