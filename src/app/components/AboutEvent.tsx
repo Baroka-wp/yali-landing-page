@@ -8,7 +8,7 @@ const AboutEvent = () => {
           {/* Content */}
           <div>
             <h2 className="text-4xl font-bold text-primary mb-6">
-              À Propos de l'Événement
+              À Propos de l&apos;Événement
             </h2>
             <div className="prose prose-lg max-w-none">
               <p className="mb-4">

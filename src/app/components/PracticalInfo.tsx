@@ -1,11 +1,8 @@
 'use client'
 
-import { useState } from 'react'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../components/ui/accordion"
 
 const PracticalInfo = () => {
-  const [openItem, setOpenItem] = useState<string | null>(null)
-
   const infoItems = [
     {
       title: "Lieu et accès",
@@ -47,4 +44,3 @@ const PracticalInfo = () => {
 }
 
 export default PracticalInfo
-

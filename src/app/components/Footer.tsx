@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4">YALI Alumni Summit 2025</h3>
-            <p className="text-sm">Inspirer l'Afrique de Demain</p>
+            <p className="text-sm">Inspirer l&apos;Afrique de Demain</p>
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">Liens rapides</h4>
@@ -22,7 +22,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Mentions légales</h4>
             <ul className="space-y-2">
-              <li><Link href="#" className="hover:text-primary">Conditions d'utilisation</Link></li>
+              <li><Link href="#" className="hover:text-primary">Conditions d&apos;utilisation</Link></li>
               <li><Link href="#" className="hover:text-primary">Politique de confidentialité</Link></li>
               <li><Link href="#" className="hover:text-primary">Cookies</Link></li>
             </ul>
@@ -46,4 +46,3 @@ const Footer = () => {
 }
 
 export default Footer
-

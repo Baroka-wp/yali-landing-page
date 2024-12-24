@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/app/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Badge } from "@/components/ui/badge"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/app/components/ui/tabs"
+import { Badge } from "@/app/components/ui/badge"
 import Image from 'next/image'
 
 const speakers = [
@@ -139,4 +139,3 @@ export default function SpeakersThemesPage() {
     </div>
   )
 }
-

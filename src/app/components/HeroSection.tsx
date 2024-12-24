@@ -33,7 +33,7 @@ const HeroSection = () => {
     seconds: 0,
   })
 
-  const [currentSlide, setCurrentSlide] = useState(0)
+  const [currentSlide] = useState(0)
 
   useEffect(() => {
     const countdownDate = new Date("April 9, 2025 00:00:00").getTime()
@@ -92,7 +92,7 @@ const HeroSection = () => {
                       9-11 Avril 2025 | Cotonou, Bénin
                     </p>
                     <div className="space-x-4">
-                      <Button size="lg" className="mb-8">S'inscrire maintenant</Button>
+                      <Button size="lg" className="mb-8">S&apos;inscrire maintenant</Button>
                       <div className="grid grid-cols-4 gap-6 max-w-2xl mx-auto mt-8">
                         {Object.entries(timeLeft).map(([unit, value]) => (
                           <div key={unit} className="bg-white/30 backdrop-blur-sm rounded-lg p-4 shadow-lg">

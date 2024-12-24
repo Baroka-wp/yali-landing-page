@@ -39,7 +39,7 @@ const SpecialActivities = () => {
                 <div key={index} className="w-full flex-shrink-0 px-4">
                   <div className="bg-white p-6 rounded-lg shadow-md text-center">
                     <h3 className="text-xl font-semibold mb-4">{activity}</h3>
-                    <p className="text-gray-600">Description de l'activité {activity.toLowerCase()}...</p>
+                    <p className="text-gray-600">Description de l&apos;activité {activity.toLowerCase()}...</p>
                   </div>
                 </div>
               ))}
@@ -66,4 +66,3 @@ const SpecialActivities = () => {
 }
 
 export default SpecialActivities
-

@@ -7,13 +7,37 @@ import { Button } from "../components/ui/button"
 import { Clock, MapPin, LayoutGrid } from 'lucide-react'
 import { cn } from "@/lib/utils"
 
-const days = [
+type DayId = "09" | "10" | "11";
+
+interface Day {
+  id: DayId;
+  number: string;
+  day: string;
+  date: string;
+}
+
+const days: Day[] = [
   { id: "09", number: "09", day: "lundi", date: "9 avril" },
   { id: "10", number: "10", day: "mardi", date: "10 avril" },
   { id: "11", number: "11", day: "mercredi", date: "11 avril" },
 ]
 
-const eventsByDay = {
+interface Speaker {
+  name: string;
+  role: string;
+  image: string;
+}
+
+interface Event {
+  title: string;
+  description: string;
+  time: string;
+  location: string;
+  type: string;
+  speakers: Speaker[];
+}
+
+const eventsByDay: Record<DayId, Event[]> = {
   "09": [
     {
       title: "Cérémonie d'ouverture",
@@ -131,23 +155,8 @@ const eventsByDay = {
   ]
 }
 
-interface Speaker {
-  name: string;  // This makes name required and non-null
-  role: string;
-  image: string;
-}
-
-interface Event {
-  title: string;
-  description: string;
-  time: string;
-  location: string;
-  type: string;
-  speakers: Speaker[];
-}
-
 export default function ProgrammePage() {
-  const [selectedDay, setSelectedDay] = useState("09")
+  const [selectedDay, setSelectedDay] = useState<DayId>("09")
 
   return (
     <div className="min-h-screen bg-gray-50 py-12">
@@ -176,7 +185,7 @@ export default function ProgrammePage() {
 
           {/* Events */}
           <div className="space-y-6">
-            {eventsByDay[selectedDay].map((event: Event, index: any) => (
+            {eventsByDay[selectedDay as DayId].map((event: Event, index: number) => (
               <Card key={index} className="overflow-hidden">
                 <CardHeader>
                   <CardTitle>{event.title}</CardTitle>

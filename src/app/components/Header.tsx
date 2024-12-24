@@ -21,7 +21,7 @@ const Header = () => {
           <Link href="/#contact" className="text-gray-600 hover:text-primary">Contact</Link>
           <Button variant="outline">FR | EN</Button>
         </nav>
-        <Button className="hidden md:inline-flex">S'inscrire</Button>
+        <Button className="hidden md:inline-flex">S&apos;inscrire</Button>
         <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           {isMenuOpen ? <X /> : <Menu />}
         </button>
@@ -36,7 +36,7 @@ const Header = () => {
             <Link href="/inscription/champion" className="text-gray-600 hover:text-primary">Inscription Champion</Link>
             <Link href="#contact" className="text-gray-600 hover:text-primary">Contact</Link>
             <Button variant="outline" className="w-full">FR | EN</Button>
-            <Button className="w-full">S'inscrire</Button>
+            <Button className="w-full">S&apos;inscrire</Button>
           </nav>
         </div>
       )}
@@ -45,4 +45,3 @@ const Header = () => {
 }
 
 export default Header
-
