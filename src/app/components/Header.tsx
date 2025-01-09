@@ -15,7 +15,7 @@ const Header = () => {
           YALI Summit 2025
         </Link>
         <nav className="hidden md:flex space-x-4">
-          <Link href="/" className="text-gray-600 hover:text-primary">Accueil</Link>
+          {/* <Link href="/" className="text-gray-600 hover:text-primary">Accueil</Link> */}
           <Link href="/#about" className="text-gray-600 hover:text-primary">À propos</Link>
           <Link href="/programme" className="text-gray-600 hover:text-primary">Programme</Link>
           <Link href="/#contact" className="text-gray-600 hover:text-primary">Contact</Link>
