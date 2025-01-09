@@ -4,7 +4,7 @@ const AboutEvent = () => {
   return (
     <section id="about" className="py-20 bg-base-100">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 gap-12 items-center">
           {/* Content */}
           <div>
             <h2 className="text-4xl font-bold text-primary mb-6">
@@ -26,8 +26,8 @@ const AboutEvent = () => {
           </div>
 
           {/* Video */}
-          <div className="relative rounded-xl overflow-hidden shadow-2xl">
-          <YouTubeEmbed videoId="Yx3enAhcz2s"/>
+          <div className="relative rounded-xl overflow-hidden shadow-2xl w-2/3 mx-auto ">
+            <YouTubeEmbed videoId="Yx3enAhcz2s"/>
           </div>
         </div>
       </div>
